@@ -1,6 +1,17 @@
-p {
-font-size: large;
+h1 {
+    width: 600px;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: center;
 }
+
+p {
+    width: 600px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: large;
+}
+
 h1 {
     text-shadow: 2px 2px 1px red,
     3px 1px 1px blue;
@@ -10,4 +21,14 @@ a {
     color: navy;
     font-weight: bold;
     text-shadow: 1px 1px 1px red;
+}
+
+img {
+    display:flex;
+    background-color: rgb(238, 244, 242);
+    width: 600px;
+    flex-direction: row;
+    align-content: flex-end;
+    margin: 20px;
+
 }
