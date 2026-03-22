@@ -1,0 +1,24 @@
+h1 {
+  text-align: center;
+  color: #6cceaa;
+}
+
+.container {
+  display: flex;
+  background-color: #eef1ec;
+  padding: 10px;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  
+}
+
+.container > div {
+  background-color: #6cceaa;
+  color: white;
+  padding: 20px;
+  text-align: center;
+
+  
+}

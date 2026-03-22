@@ -1,0 +1,13 @@
+p {
+font-size: large;
+}
+h1 {
+    text-shadow: 2px 2px 1px red,
+    3px 1px 1px blue;
+}
+
+a {
+    color: navy;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px red;
+}
