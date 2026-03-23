@@ -13,18 +13,19 @@
 
 		<!-- Your UI controls go here -->
 		<fieldset id="textbox"> 
-			<label for="textbox">Text</label>
+			<legend for="textbox">Text</legend>
 			<textarea type="Text" id="text" name="textbox" rows = "4" cols="30"></textarea>
 		</fieldset>
 		
 		<fieldset id="Fancify"> 
-			<label for="Fancify">Fancify</label>
+			<legend for="Fancify">Fancify</legend>
 			<button id="bigger">Bigger!</button>
+			<button id="moo">Moo</button>
 			
-			<input type="radio" id="fancy" name="fancy">
+			<input onChange = "boldClick()" type="radio" id="fancy" name="group1">
 			<label for="fancy">FancyShmancy</label>
 			
-			<input type="radio" id="boring" name="boring">
+			<input type="radio" id="boring" name="group1">
 			<label for="boring">BoringBetty</label>
 		</fieldset>
 	</body>
