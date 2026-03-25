@@ -4,7 +4,7 @@
 }
 
 function fancifyClick() {
-   /* get a random color when FancyShmancy is clicked
+  /*  //get random color when FancyShmancy is clicked
    let red = Math.floor(Math.random() * (255 - 1)) + 1;
     let green = Math.floor(Math.random() * (255 - 1)) + 1;
     let blue = Math.floor(Math.random() * (255 - 1))+ 1; */
